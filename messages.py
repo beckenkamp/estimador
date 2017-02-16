@@ -19,6 +19,13 @@ chat_responses['pick-a-place'] = [
     'Use o botão abaixo para escolher um local! Só assim posso lhe dar a estimativa =)',
 ]
 
+
+chat_responses['location-button'] = [
+    'Agora escolha o destino! :)',
+    'Use o botão abaixo para escolher para onde você vai! =)',
+]
+
+
 chat_responses['greetings'] = [
     'Oi, tudo bem? Vamos estimar uma viagem?',
     'Oie! Tá querendo saber quanto custa um rolê?',

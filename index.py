@@ -25,7 +25,7 @@ app.config['MONGODB_SETTINGS'] = {
     'host': os.environ.get('MONGO_HOST'),
     'username': os.environ.get('MONGO_USER'),
     'password': os.environ.get('MONGO_PASS'),
-    'port': os.environ.get('MONGO_PORT')
+    'port': int(os.environ.get('MONGO_PORT'))
 }
 
 db = MongoEngine(app)
